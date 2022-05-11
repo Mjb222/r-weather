@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-        <Weather />
+        <Weather defaultCity="New York" />
       </div>
       <footer>
         <a href="https://github.com/Mjb222/r-weather" target="_blank">
