@@ -10,11 +10,16 @@ export default function App() {
         <Weather defaultCity="New York" />
       </div>
       <footer>
+        Project coded by Marium Bajwa and is
         <a href="https://github.com/Mjb222/r-weather" target="_blank">
           {" "}
-          Open-source project,{" "}
+          Open-source project on GitHub,{" "}
         </a>
-        coded by Marium Bajwa
+        and
+        <a href="https://luminous-capybara-7b0b7c.netlify.app/" target="_blank">
+          {" "}
+          hosted on Netlify
+        </a>
       </footer>
     </div>
   );
