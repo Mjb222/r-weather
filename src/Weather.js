@@ -47,10 +47,10 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-3">
+            <span className="col-2">
               <input type="submit" value="🔍" className="searchbutton" />
               <input type="submit" value="📍" className="button" />
-            </div>
+            </span>
           </div>
         </form>
         <Weatherinfo data={weatherData} />

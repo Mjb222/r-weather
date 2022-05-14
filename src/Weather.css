@@ -1,68 +1,43 @@
-.Weather .temperature {
-  font-weight: bolder;
+.Weather {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 4px;
   color: black;
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 74px;
-  font-weight: 550;
 }
-.Weather .unit {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  top: -17px;
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
 }
-
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
 .Weather li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
 }
-.Weather ul {
-  margin: 0;
-  padding: 0;
-}
-.Weather canvas {
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 5px;
-}
-body {
-  font-family: "Courier New", Courier, monospace;
-}
 
-h1 {
-  text-align: center;
+.Weather .temp {
   font-weight: bold;
-  margin-top: 10px;
-  font-size: 30px;
-  line-height: 48px;
+  color: black;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  font-weight: 400;
 }
-h2 {
-  text-align: center;
-
-  margin-top: 20px;
-  font-size: 30px;
-  line-height: 48px;
-  font-weight: bold;
-}
-h6 {
-  text-align: center;
-  margin-top: -15px;
+.Weather .unit {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -34px;
 }
 
-.search-form {
-  margin-bottom: 20px;
-}
-.container {
-  border: 1px solid #dadde1;
-  padding: 15px;
-  margin: 20px auto;
-  border-radius: 8px;
-  max-width: 600px;
-}
 .form-control {
   border-radius: 100px;
 }
@@ -72,30 +47,4 @@ h6 {
 }
 .searchbutton {
   border-radius: 100px;
-}
-
-.description {
-  font-weight: bold;
-}
-
-.w-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: black;
-}
-.w-date {
-  font-size: 16px;
-  opacity: 0.6;
-}
-
-.w-temp {
-  font-size: 13px;
-}
-.w-temp-min {
-  opacity: 0.6;
-}
-
-.row {
-  display: flex;
-  justify-content: space-evenly;
 }
