@@ -11,12 +11,20 @@ export default function App() {
       </div>
       <footer>
         Project coded by Marium Bajwa,{" "}
-        <a href="https://github.com/Mjb222/r-weather" target="_blank">
+        <a
+          href="https://github.com/Mjb222/r-weather"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           open-source project on GitHub,{" "}
         </a>
         and
-        <a href="https://luminous-capybara-7b0b7c.netlify.app/" target="_blank">
+        <a
+          href="https://luminous-capybara-7b0b7c.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           hosted on Netlify
         </a>
