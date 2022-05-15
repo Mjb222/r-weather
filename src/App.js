@@ -13,8 +13,8 @@ export default function App() {
         Project coded by Marium Bajwa,{" "}
         <a
           href="https://github.com/Mjb222/r-weather"
-          target="_blank"
           rel="noreferrer"
+          target="_blank"
         >
           {" "}
           open-source project on GitHub,{" "}
@@ -22,8 +22,8 @@ export default function App() {
         and
         <a
           href="https://luminous-capybara-7b0b7c.netlify.app/"
-          target="_blank"
           rel="noreferrer"
+          target="_blank"
         >
           {" "}
           hosted on Netlify
