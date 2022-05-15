@@ -38,6 +38,10 @@
   top: -34px;
 }
 
+.Weather .unit a {
+  text-decoration: none;
+}
+
 .form-control {
   border-radius: 100px;
 }

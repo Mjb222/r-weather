@@ -16,7 +16,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      iconUrl: response.data.weather[0].icon,
+      icon: response.data.weather[0].icon,
     });
   }
 
@@ -38,7 +38,7 @@ export default function Weather(props) {
       <div className="Weather">
         <form className="search-form" onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 offset-2">
               <input
                 type="search"
                 placeholder="Type a city.."
